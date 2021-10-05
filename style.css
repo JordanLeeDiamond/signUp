@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: ballerina;
+    src: url(./fonts/ballerina.ttf);
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background: linear-gradient(to bottom right, #B3DEE2, #F2F4F7);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex: wrap;
+}
+
+#logo {
+    width: 350px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    font-family: ballerina;
+    font-size: 50px;
+}
+
+#signUpBox {
+    width: 350px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1.5px solid rgba(112, 112, 112, 0.5);
+    padding: 15px 20px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#signUpTXT {
+    margin-bottom: 25px;
+    font-size: medium;
+}
+
+#signUpForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#email {
+    background: #fafafa;
+    border: 1px solid rgba(112, 112, 112), 0.5;
+    outline: none;
+    border: solid #00000000 ;
+    margin-bottom: 5px;
+}
+
+#username {
+    background: #fafafa;
+    border: 1px solid rgba(112, 112, 112), 0.5;
+    outline: none;
+    border: solid #00000000 ;
+    margin-bottom: 5px;
+}
+
+#password {
+    background: #fafafa;
+    border: 1px solid rgba(112, 112, 112), 0.5;
+    outline: none;
+    border: solid #00000000; 
+}
+
+
+#signUpBTN {
+    background: #bbd4d8;
+    color: #F2F4F7;
+    margin: 20px 0;
+    font-weight: 800;
+    outline: none;
+    border: none;
+    height: 45px;
+}
